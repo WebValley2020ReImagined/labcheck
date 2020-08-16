@@ -7,7 +7,7 @@
 
 ## Open a terminal and
 ## connect to the virtual machine (VM)
-`ssh -L 8888:localhost:8888 -p 63686 gabriele@ml-lab-0ef8dec9-10b7-43cb-910d-e1ff4cd78d15.westeurope.cloudapp.azure.com`
+`ssh -L 8888:localhost:8888 -p MY_VIRTUAL_MACHINE_PORT gabriele@MY_VIRTUAL_MACHINE_NAME.westeurope.cloudapp.azure.com`
 
 ## Activate the conda environment called py37_pytorch
 `conda activate py37_pytorch`
