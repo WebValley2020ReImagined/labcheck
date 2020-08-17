@@ -1,2 +1,1 @@
-## Hello everyone!
-# welcome to GIT
+## Hello
