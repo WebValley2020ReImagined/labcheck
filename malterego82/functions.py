@@ -1,4 +1,4 @@
-def pad(w1: str, w2: str, p: str, time) -> str:
+def pad(w1: str, w2: str, p: str, times: int = 1) -> str:
     """String padding leveraging on f-strings
     
     Paramenters
@@ -15,3 +15,4 @@ def pad(w1: str, w2: str, p: str, time) -> str:
         The two strings w1 and w2 padded with p
     """
     return f"{w1}{p}{w2}"
+
