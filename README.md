@@ -16,3 +16,11 @@
 `jupyter lab --no-browser`
 
 ## Navigate to http://localhost:8888/lab
+
+# "One-line" startup script
+Download it:  
+`wget https://raw.githubusercontent.com/WebValley2020ReImagined/labcheck/master/startjupyter.sh`  
+`chmod +x startjupyter.sh`
+
+after downloading the script, you can execute it with  
+`./startjupyter.sh`
